@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="20dp"
+            android:id="@+id/cardAndroid"
+            app:cardBackgroundColor="@color/darkGrey"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/canaryYellow"
+                android:text="Android App Dev."
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="20dp"
+            android:id="@+id/cardWebDev"
+            app:cardBackgroundColor="@color/darkGrey"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Web Dev."
+                android:textColor="@color/canaryYellow"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="20dp"
+            android:id="@+id/cardIOSAppDev"
+            app:cardBackgroundColor="@color/darkGrey"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/canaryYellow"
+                android:text="IOS App Dev."
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="20dp"
+            android:id="@+id/cardML"
+            app:cardBackgroundColor="@color/darkGrey"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Machine Learning"
+                android:textColor="@color/canaryYellow"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="20dp"
+            android:id="@+id/cardWeb3"
+            app:cardBackgroundColor="@color/darkGrey"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/canaryYellow"
+                android:text="Web3"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="20dp"
+            android:id="@+id/cardCloud"
+            app:cardBackgroundColor="@color/darkGrey"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cloud Computing"
+                android:textColor="@color/canaryYellow"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/contactBtn"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:text="Contact Us"
+        android:backgroundTint="@color/lGrey"
+        android:textColor="#0F0202"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+
+</LinearLayout>

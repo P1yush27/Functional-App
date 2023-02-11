@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGrey"
+    android:orientation="vertical"
+    tools:context=".AppDevActivity">
+
+
+    <TextView
+        android:id="@+id/headerWebDev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Web Development"
+        android:textAlignment="center"
+        android:textColor="@color/canaryYellow"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:background="@color/canaryYellow">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_margin="25dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/webdevlogo" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textHTML"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:text="HTML"/>
+
+            <TextView
+                android:id="@+id/textCSS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="CSS"/>
+
+            <TextView
+                android:id="@+id/textJS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="JAVASCRIPT"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:background="@color/canaryYellow">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="0dp"
+                android:layout_height="127dp"
+                android:layout_gravity="center"
+                android:layout_margin="25dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/reactlogo" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="0dp"
+                android:layout_height="136dp"
+                android:layout_gravity="center"
+                android:layout_margin="25dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/nodelogo" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textReactJS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="REACT JS"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textNodeJS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="NODE JS"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
